@@ -1,0 +1,16 @@
+﻿<Window x:Class="CompetitionTiming.ApplicationHelp"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="ApplicationHelp" Height="350" Width="400"
+        WindowStartupLocation="CenterScreen" >
+    <Grid>
+        <Button Name="okButton" Content="OK"  Click="okButton_Click" HorizontalAlignment="Left" Margin="153,247,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="0.474,2.661"/>
+        <Label Content="Competition Timing Application" HorizontalAlignment="Center"  VerticalAlignment="Top" Margin="91,10,98,0" Width="203"/>
+        <Label Content="beta. Build 2015" HorizontalAlignment="Center" Margin="249,46,21,0" VerticalAlignment="Top" RenderTransformOrigin="0.353,0.699" Width="122"/>
+        <Label Content="copyright . gotoole 2015" HorizontalAlignment="Left" Margin="153,274,0,0" VerticalAlignment="Top" Width="179"/>
+        <TextBlock HorizontalAlignment="Left" Margin="53,98,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="292" Height="115">
+            Sorry Help is not ready yet. 
+            You are on your own !
+        </TextBlock>
+    </Grid>
+</Window>
